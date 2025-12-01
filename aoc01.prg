@@ -10,10 +10,10 @@ nLin := 1
 while !empty( cLine := memoline(cnum, ,nLin++ ) )
 	nSum += val(cLine)
 	while nSum > 99
-		nSum-=99
+		nSum-=100
     enddo
 	while nSum < 0
-		nSum+=99
+		nSum+=100
 	enddo
 	if nSum == 0
 		nZero++
