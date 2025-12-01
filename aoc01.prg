@@ -20,5 +20,5 @@ while !empty( cLine := memoline(cnum, ,nLin++ ) )
 	endif
 	// ? nLin, nSum, nZero
 enddo
-? "Number os Zero positions:", nZero
+? "The password is: ", nZero
 return
