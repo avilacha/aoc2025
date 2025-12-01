@@ -18,7 +18,7 @@ while !empty( cLine := memoline(cnum, ,nLin++ ) )
 	if nSum == 0
 		nZero++
 	endif
-	? nLin, nSum, nZero
+	// ? nLin, nSum, nZero
 enddo
 ? "Number os Zero positions:", nZero
 return
