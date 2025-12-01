@@ -5,7 +5,7 @@ cnum := strtran( cinp,"R","")   //  10 L39 L30
 cnum := strtran( cnum,"L","-")  //  10 -39 -30
 
 nZero := 0
-nSum := 0
+nSum := 50
 nLin := 1
 while !empty( cLine := memoline(cnum, ,nLin++ ) )
 	nSum += val(cLine)
